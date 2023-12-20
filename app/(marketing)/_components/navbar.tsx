@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Navbar() {
@@ -9,7 +10,9 @@ export default function Navbar() {
           <li>Home</li>
           <li>Features</li>
           <li>Plans</li>
-          <li>login</li>
+          <Link href="/sign-up" target="_blank">
+            <li>login</li>
+          </Link>
           <li>Sign Up</li>
         </ul>
       </nav>
